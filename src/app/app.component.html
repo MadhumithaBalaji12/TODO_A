@@ -1,3 +1,16 @@
-<!-- src/app/app.component.html -->
-<h1>Todo List Application</h1>
-<app-todo></app-todo>
+<nav>
+  <button 
+    [class.active]="isActive('home')" 
+    (click)="navigateTo('home')">Home
+  </button>
+  <button 
+    [class.active]="isActive('customization')" 
+    (click)="navigateTo('customization')">Customization
+  </button>
+  <button 
+    [class.active]="isActive('settings')" 
+    (click)="navigateTo('settings')">Settings
+  </button>
+</nav>
+<router-outlet></router-outlet>
+

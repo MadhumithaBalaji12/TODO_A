@@ -1,0 +1,49 @@
+nav {
+    background: #f1f1f1;
+    padding: 10px;
+  }
+  
+  .tab-list {
+    list-style: none;
+    display: flex;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .tab-list li {
+    margin-right: 20px;
+  }
+  
+  .tab-list a {
+    text-decoration: none;
+    color: #333;
+    padding: 10px;
+    border-radius: 5px;
+  }
+  
+  .tab-list a.active {
+    background: #007bff;
+    color: white;
+  }
+  /* src/app/app.component.css */
+nav {
+  background: #f1f1f1;
+  padding: 10px;
+}
+
+button {
+  background: #fff; /* Default button color */
+  border: 1px solid #ddd;
+  padding: 10px 20px;
+  margin: 5px;
+  cursor: pointer;
+}
+
+button.active {
+  background: yellow; /* Active button color */
+  border: 1px solid #aaa;
+}
+
+button:hover {
+  background: #f7f7f7; /* Hover effect for all buttons */
+}
